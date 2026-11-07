@@ -1,5 +1,9 @@
 # Labs for mod-105-impact-assessments-and-model-cards (Impact Assessments, Model Cards, System Cards, and Datasheets)
 
-Planned labs:
+Guided, step-by-step hands-on sessions. Labs complement the module's six exercises — the exercises each drill a single chapter's authoring mechanics (42005 template, AIA, FRIA, DPIA, model card, datasheet); the labs exercise the chapters the exercises do not reach directly (chapter 05 sector overlay, chapter 07 system-card extension, chapter 08 cross-reference walk) and run reading-across integration disciplines that single-chapter authoring cannot test. All labs are code-free — no Python or notebook environment is required.
 
-- `lab-01` — lab-01
+| # | Lab | Focus | Duration |
+|---|---|---|---|
+| 01 | [Cross-Reference Walk on a Fixed Corpus](lab-01-cross-reference-walk-on-a-fixed-corpus.md) | Reading-across drill — a deliberately drifted MCDA corpus (inventory row, register, canonical impact assessment, model card, system card, datasheet, bias-review note, eval report, incident, monitoring), six walks run, six failure modes tagged, corrective-action tickets routed, walk-log filed as the audit-facing artefact | 2 h |
+| 02 | [Sector-Overlay Contribution Packet for an FDA / GMLP Device](lab-02-sector-overlay-contribution-packet-gmlp.md) | Chapter 05 authoring drill — MCDA-Radiology as the fixed input; governance-side contribution packet produced for regulatory affairs covering indications for use, device description, human-AI team framing (P7), sub-group framing (P3/P8), post-market monitoring intent (P10), predetermined-change-control intent, and transparency (P9), with the load-bearing explicit non-contributions section naming the ISO 14971 / clinical-performance / PCCP / labelling / submission boundaries | 2 h |
+| 03 | [System-Card Extension From a Fixed Model Card and Composition Manifest](lab-03-system-card-extension-from-fixed-inputs.md) | Chapter 07 authoring drill — a fixed model card and platform-team composition manifest; author the three system-card extension sections (§10 Composition and Deployment Context, §11 Safety Evaluation Coverage, §12 Change-Management Triggers), route at least one §12 trigger upstream to the canonical impact assessment, keep the extension under the chapter-07 size envelope and off the model card's content | 90 min |
