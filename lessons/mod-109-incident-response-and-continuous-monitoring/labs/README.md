@@ -1,5 +1,8 @@
 # Labs for mod-109-incident-response-and-continuous-monitoring (AI Incident Response and Continuous Monitoring at the Analyst Tier)
 
-Planned labs:
+Guided, step-by-step practice sessions paired to the module's chapters. Labs are distinct from the module's [exercises](../exercises/) — the exercises each drill a *within-artefact* authoring act (intake-ticket classification, one `INC-<year>-<sequence>` record end-to-end, one monthly monitoring-reading note, one quarterly PMS summary plus an Article 73 notification draft). The labs below drill the *cross-artefact* authoring the exercises do not cover: the chapter-08 post-incident evidence pack for council and internal audit, and the chapter-09 pattern-recognition sweep across a rolling-quarter incident set.
 
-- `lab-01` — lab-01
+| # | Lab | Grounding chapters | Duration |
+|---|---|---|---|
+| 01 | [Lab 01 — Council and Internal-Audit Evidence-Pack Composition from a Pre-Assembled Closed Incident Record](lab-01-council-and-internal-audit-evidence-pack-from-a-closed-incident-record.md) | [08](../08-post-incident-evidence-packaging.md), [03](../03-incident-record-and-register-linkage.md), [04](../04-coordinating-impact-assessment-update.md), [05](../05-monitoring-dashboards-for-governance-signoff.md), [06](../06-monitoring-signal-escalation-patterns.md), [09](../09-delegation-boundary-and-escalation-patterns.md) | 2 h |
+| 02 | [Lab 02 — Quarterly Incident Roll-up and Pattern-Recognition Sweep Against the Escalation Register](lab-02-quarterly-incident-rollup-and-pattern-recognition-sweep.md) | [09](../09-delegation-boundary-and-escalation-patterns.md), [03](../03-incident-record-and-register-linkage.md), [06](../06-monitoring-signal-escalation-patterns.md), [02](../02-ai-specific-incident-taxonomy.md) | 2 h |
